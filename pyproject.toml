@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "logs-ativ"
+version = "0.1.0"
+description = ""
+authors = ["Matheus Solon <matheussolon777@gmail.com>"]
+readme = "README.md"
+packages = [{include = "logs_ativ"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.1"
+numpy = "^1.23.4"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
